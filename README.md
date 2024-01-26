@@ -227,7 +227,7 @@ The following commands will replot the graph above and store it in the file `col
 ```
 gnuplot> set terminal png size 800,400
 gnuplot> set output 'colors.png'
-gnuplot> plot 'country_code.plot_data' using 1:xtic(2) notitle
+gnuplot> plot 'colors.dat' using 1:xtic(2) notitle
 ```
 The `plot` command above should have no output.
 Leave the gnuplot shell by typing `^D` and run `ls`.
